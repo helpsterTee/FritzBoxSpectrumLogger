@@ -1,6 +1,8 @@
 # FritzBoxSpectrumLogger
 A logger and video generator for spectrum graphics from FritzBox routers
 
+![sample output](https://i.imgur.com/lSFClov.gif)
+
 ## Installation
 - Python3
 - `pip install -r requirements.txt`

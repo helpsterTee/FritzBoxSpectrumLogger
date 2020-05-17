@@ -39,8 +39,8 @@ def calculate_spectrum(data):
 
     tones_per_bin = float(jdata["port"][0]["us"]["TONES_PER_BAT_VALUE"])
     tones_per_snr = float(jdata["port"][0]["us"]["TONES_PER_SNR_VALUE"])
-    hz_per_bin = float(jdata["port"][0]["us"]["MAX_BAT_FREQ"]) / maxlen / 100
-    hz_per_snr = float(jdata["port"][0]["us"]["MAX_SNR_FREQ"]) / maxlen / 100
+    hz_per_bin = float(jdata["port"][0]["us"]["MAX_BAT_FREQ"]) / maxlen / 1000
+    hz_per_snr = float(jdata["port"][0]["us"]["MAX_SNR_FREQ"]) / maxlen / 1000
     width = 1
 
     # band coloring

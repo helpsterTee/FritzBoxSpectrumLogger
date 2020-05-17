@@ -11,4 +11,5 @@ A logger and video generator for spectrum graphics from FritzBox routers
 - Create timelapse video of spectrum changes: `python video.py timestamp_from timestamp_to`
 
 ## Known issues
-- It will create a log entry on session login. This may spam your FritzBox log, if used to often. Default value is every 5 Minutes.
+- It will create a log entry on session login. This may spam your FritzBox log, if used too often. Default value is every 5 Minutes.
+- I still don't know what happens if the spectrum is empty after restart or connection loss :)
